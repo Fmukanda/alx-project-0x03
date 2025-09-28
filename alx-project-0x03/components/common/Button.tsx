@@ -1,4 +1,5 @@
-
+import { ButtonProps } from '@interfaces/index';
+//import { type ButtonProps }
 
 const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: ButtonProps) => {
 
@@ -18,4 +19,5 @@ const Button = ({ buttonLabel, buttonSize, buttonBackgroundColor, action }: Butt
 }
 
 export default Button;
+
 
