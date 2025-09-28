@@ -5,11 +5,9 @@ export interface ButtonProps {
   action?: () => void
 }
 
-
 export interface PageRouteProps {
   pageRoute: string
 }
-
 
 export interface LayoutProps {
   children: ReactNode;
